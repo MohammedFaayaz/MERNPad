@@ -1,0 +1,22 @@
+{
+  "name": "mern-notesmaking",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install --prefix frontend &&  npm install --prefix backend  && npm run build --prefix frontend",
+    "start":"npm run start --prefix backend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MohammedFaayaz/MERNPad.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/MohammedFaayaz/MERNPad/issues"
+  },
+  "homepage": "https://github.com/MohammedFaayaz/MERNPad#readme"
+}
